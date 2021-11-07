@@ -11,5 +11,9 @@ public class Main {
         String name = "Tomasz";
         int wiek = 28;
         System.out.println("My name is " + name + " and I'm " + wiek);
+
+        String account = "TomaszPreiniger";
+        int dlugosc = account.length();
+        System.out.println(dlugosc);
     }
 }
