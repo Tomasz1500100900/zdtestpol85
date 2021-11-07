@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -38,15 +39,32 @@ public class Main {
 //                System.out.println("Program dziala tez");
 //            }
 //        }
-        Scanner skaner = new Scanner(System.in);
-        System.out.println("Wpisz swoje imie");
-        String userInputName = skaner.nextLine();
-        System.out.println("Wpisz swoje nazwisko");
-        String userInputSurname = skaner.nextLine();
-        System.out.println("Witaj " + userInputName +" " + userInputSurname + "!");
+//        Scanner skaner = new Scanner(System.in);
+//        System.out.println("Wpisz swoje imie");
+//        String userInputName = skaner.nextLine();
+//        System.out.println("Wpisz swoje nazwisko");
+//        String userInputSurname = skaner.nextLine();
+//        System.out.println("Witaj " + userInputName +" " + userInputSurname + "!");
+//
+//        int number = 3;
+//        int number2;
+//        System.out.println(number++);
+//        System.out.println(++number);
+//        System.out.println(number);
+//        number2 = number++;
+//        System.out.println(number2);
+//        number2 = ++number;
+//        System.out.println(number2);
+//        System.out.println(++number2);
 
+        ArrayList<String> arrayList = new ArrayList<()>;
+        String[] nameTable = new String[4];
+        String[] nameTableBio = {"Kasia", "Tomasz", "Joanna", "Anna"};
+        for (int i = 0; i < nameTableBio.length; i++){
+            System.out.println(nameTableBio[i]);
+        }
+        for (int i = 0; i < nameTableBio.length; i++){
 
-
-
+        }
     }
 }
