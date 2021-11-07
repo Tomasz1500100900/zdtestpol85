@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int liczba;
-        liczba = 5;
-        int liczba2 = 7;
+        liczba = 5;int liczba2 = 7;
         System.out.println("Hello World" + liczba);
 
 
-        System.out.println(liczba2);
+      System.out.println(liczba2);
 
         String name = "Tomasz";
         int wiek = 28;
@@ -15,5 +14,18 @@ public class Main {
         String account = "TomaszPreiniger";
         int dlugosc = account.length();
         System.out.println(dlugosc);
+
+        System.out.println(account.indexOf("rr"));
+
+        System.out.println(account.substring(0,6));
+
+        char a = 'a';
+        char alpha = '\u0381';
+        System.out.println(alpha);
+
+        char[] witaj = {'w', 'i', 't', 'a', 'j'};
+        System.out.println(witaj);
+        Character.isDigit(a);
+        System.out.println(Character.isDigit(liczba));
     }
 }
