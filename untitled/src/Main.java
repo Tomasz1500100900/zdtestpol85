@@ -5,6 +5,6 @@ public class Main {
         int liczba;
         liczba = 5;
         int liczba2 = 7;
-        System.out.println(liczba % liczba2);
+        System.out.println(liczba2);
     }
 }
