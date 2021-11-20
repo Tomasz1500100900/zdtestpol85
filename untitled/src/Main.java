@@ -57,14 +57,18 @@ public class Main {
 //        System.out.println(number2);
 //        System.out.println(++number2);
 
-        ArrayList<String> arrayList = new ArrayList<()>;
-        String[] nameTable = new String[4];
-        String[] nameTableBio = {"Kasia", "Tomasz", "Joanna", "Anna"};
-        for (int i = 0; i < nameTableBio.length; i++){
-            System.out.println(nameTableBio[i]);
-        }
-        for (int i = 0; i < nameTableBio.length; i++){
+//
 
-        }
+        int[] tablica = {1, 2, 3, 4, 5, 6};
+        for (int i = 0; i < tablica.length; i++) {
+            if (tablica[i] < 3) {
+                System.out.println("True");
+            }else if (tablica[i] < 5) ;
+                {
+                    System.out.println("False");
+                }
+            }
+
+
     }
 }
